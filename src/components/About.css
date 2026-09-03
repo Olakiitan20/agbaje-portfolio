@@ -1,0 +1,126 @@
+.about {
+  padding: 100px 0;
+}
+
+.about-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+/* About Image */
+.about-image {
+  display: flex;
+  justify-content: center;
+}
+
+.about-placeholder {
+  width: 350px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: #f1f1f1;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* About Content */
+.about-content {
+  max-width: 600px;
+}
+
+.section-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.about-content h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.15;
+  margin-bottom: 30px;
+}
+
+.about-content p:not(.section-label) {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+/* About Buttons */
+.about-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.about-button {
+  display: inline-block;
+  padding: 13px 22px;
+
+  background: #111111;
+  color: #ffffff;
+
+  border: 1px solid #111111;
+  border-radius: 6px;
+
+  font-weight: 600;
+
+  transition: 0.3s ease;
+}
+
+.about-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+/* Download CV Button */
+.cv-button {
+  background: #ffffff;
+  color: #111111;
+}
+
+.cv-button:hover {
+  background: #111111;
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .about {
+    padding: 70px 0;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .about-placeholder {
+    width: 260px;
+    height: 300px;
+  }
+
+  .about-content {
+    max-width: 100%;
+  }
+
+  .about-buttons {
+    justify-content: center;
+  }
+}
