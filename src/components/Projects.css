@@ -1,0 +1,172 @@
+.projects {
+  padding: 100px 0;
+}
+
+.projects-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Section Heading */
+
+.projects-heading {
+  max-width: 700px;
+  margin-bottom: 60px;
+}
+
+.projects-heading h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.15;
+  margin-bottom: 25px;
+}
+
+.projects-heading > p:not(.section-label) {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* Projects Grid */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* Project Card */
+
+.project-card {
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Project Screenshot */
+
+.project-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: #f1f1f1;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  object-fit: cover;
+
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.05);
+}
+
+/* Project Content */
+
+.project-content {
+  padding: 25px;
+}
+
+.project-type {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.project-content h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* Technologies */
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.project-tech span {
+  padding: 6px 10px;
+
+  background: #f1f1f1;
+  border-radius: 4px;
+
+  font-size: 0.8rem;
+}
+
+/* Links */
+
+.project-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: opacity 0.3s ease;
+}
+
+.project-link:hover {
+  opacity: 0.6;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 70px 0;
+  }
+
+  .projects-heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .project-image {
+    height: 240px;
+  }
+}
