@@ -32,6 +32,10 @@ function Navbar() {
             Design
           </a>
 
+          <a href="#services" onClick={() => setIsMenuOpen(false)}>
+            Services
+          </a>
+
           <a href="#contact" onClick={() => setIsMenuOpen(false)}>
             Contact
           </a>
