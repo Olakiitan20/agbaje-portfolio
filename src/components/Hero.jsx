@@ -36,10 +36,8 @@ function Hero() {
         </div>
 
         <div className="hero-visual">
-          <div className="hero-placeholder">
-            <span>Developer</span>
-            <span>&</span>
-            <span>Designer</span>
+          <div className="hero-image">
+            <img src="/images/profile.jpg" alt="Agbaje Abdulwasiu" />
           </div>
         </div>
       </div>

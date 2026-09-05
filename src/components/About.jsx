@@ -7,9 +7,11 @@ function About() {
 
         {/* About Image */}
         <div className="about-image">
-          <div className="about-placeholder">
-            <span>About</span>
-            <span>Me</span>
+          <div className="about-image-container">
+            <img
+              src="/images/about.jpeg"
+              alt="Agbaje Abdulwasiu"
+            />
           </div>
         </div>
 
