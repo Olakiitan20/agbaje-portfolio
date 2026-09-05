@@ -7,7 +7,7 @@ function Projects() {
       type: "BACKEND DEVELOPMENT",
       description:
         "A highly secure, production ready fintech engine that automates customer onboarding, enforces strict user authethication and manages core ledger operations. The system throughput REST endpoints to process real time financial transaction, balance updates and account creation with absolute data integrity.",
-      image: "/projects/digital-banking.png",
+      image: "/projects/digital-banking.jpeg",
       technologies: ["Node.js", "Express.js", "MongoDB", "REST API", "JSON Web Tokens (JWT)", "Bcrypt", "Postman"],
       github: "https://github.com/Olakiitan20/fintechAssignment",
       liveDemo: "#",
