@@ -76,4 +76,9 @@
   .nav-menu.active {
     display: flex;
   }
+
+  .nav-menu a {
+    width: 100%;
+    padding: 5px 0;
+  }
 }
