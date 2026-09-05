@@ -32,7 +32,6 @@ function Skills() {
               <span>CSS</span>
               <span>JavaScript</span>
               <span>React</span>
-              <span>Responsive Design</span>
             </div>
           </div>
 
@@ -46,23 +45,33 @@ function Skills() {
               <span>REST APIs</span>
               <span>MongoDB</span>
               <span>Mongoose</span>
-              <span>Authentication</span>
+              <span>JSON Web Token</span>
             </div>
           </div>
 
-          {/* Design & Tools */}
+          {/* Design */}
           <div className="skill-card">
-            <h3>Design & Tools</h3>
+            <h3>Design</h3>
 
             <div className="skill-list">
-              <span>Graphics Design</span>
+              <span>Brand Identity</span>
               <span>Logo Design</span>
               <span>Flyer Design</span>
-              <span>Git & GitHub</span>
+              <span>Social Media Design</span>
+              <span>Print Design</span>
+            </div>
+          </div>
+
+           {/* Tools */}
+          <div className="skill-card">
+            <h3>Tools</h3>
+
+            <div className="skill-list">
+              <span>Git/Github</span>
               <span>Postman</span>
               <span>VS Code</span>
               <span>Photoshop</span>
-              <span>Coreldraw</span>
+              <span>CorelDraw</span>
             </div>
           </div>
 

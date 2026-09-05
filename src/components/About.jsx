@@ -26,21 +26,24 @@ function About() {
           </h2>
 
           <p>
-            I'm a software developer passionate about building
-            responsive, functional and user-friendly web applications.
+            I'm a <b>Full-Stack Developer</b> dedicated to building seamless,
+            responsive and highly functional web applications. Because I work 
+            across both frontend and backend systems, I build software with a
+            deep understanding of how efficient databases and smooth user interface connect.
           </p>
 
           <p>
-            My interests cover both frontend and backend development,
-            allowing me to understand how different parts of a web
-            application work together.
+            What sets me apart is my background in <b>Graphic Design</b>. I don't just
+            write clean, scalable code, I design with the end user in mind, transforming
+            complex ideas into intuitive, visually striking digital experiences.
           </p>
 
           <p>
-            Beyond development, I also have an interest in graphics
-            design, where I enjoy turning ideas into creative visual
-            experiences.
+            As a collaborative and fast learning developer, I am looking to connect with 
+            engineering teams, mentors and developers to contribute to impactful projects 
+            and grow within a fast paced environment.
           </p>
+
 
           {/* About Buttons */}
           <div className="about-buttons">

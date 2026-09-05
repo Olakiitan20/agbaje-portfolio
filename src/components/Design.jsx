@@ -52,8 +52,8 @@ function Design() {
           </h2>
 
           <p>
-            I also enjoy creating visual designs that communicate
-            ideas, build brands and connect with audiences.
+            I blend aesthetics with strategy to create high impact visual designs that build 
+            memorable brands and connect with audiences.
           </p>
         </div>
 

@@ -12,16 +12,17 @@ function Hero() {
           </h1>
 
           <h2>
-            Frontend & Backend Developer
+            A Full-Stack Developer
           </h2>
 
           <p className="hero-role">
-            Graphics Designer
+            & Graphics Designer
           </p>
 
           <p className="hero-description">
-            I build responsive and functional web applications
-            while combining technology with creative visual design.
+            I build robust, responsive and functional web applications from database to interface. 
+            My background in graphic design allows me to bridge the gap between powerful backend logic and beautiful
+            user centered frontends
           </p>
 
           <div className="hero-buttons">

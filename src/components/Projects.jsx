@@ -6,9 +6,9 @@ function Projects() {
       title: "Digital Banking System",
       type: "BACKEND DEVELOPMENT",
       description:
-        "A backend banking system that handles customer onboarding, account creation, authentication and core banking operations.",
+        "A highly secure, production ready fintech engine that automates customer onboarding, enforces strict user authethication and manages core ledger operations. The system throughput REST endpoints to process real time financial transaction, balance updates and account creation with absolute data integrity.",
       image: "/projects/digital-banking.png",
-      technologies: ["Node.js", "Express.js", "MongoDB", "REST API"],
+      technologies: ["Node.js", "Express.js", "MongoDB", "REST API", "JSON Web Tokens (JWT)", "Bcrypt", "Postman"],
       github: "https://github.com/Olakiitan20/fintechAssignment",
       liveDemo: "#",
     },
@@ -17,9 +17,9 @@ function Projects() {
       title: "Planets Web Application",
       type: "FRONTEND DEVELOPMENT",
       description:
-        "A responsive web application that provides information about different planets through a clean and user-friendly interface.",
+        "A sleek, responsive web application that delivers detailed insights into our solar system through an intuitive user interface. It translates complex planetary data into highly readable, interactive views with fluid transitions and perfect layouts tailored for any screen size..",
       image: "/projects/planets.png",
-      technologies: ["React", "JavaScript", "CSS", "Responsive Design"],
+      technologies: ["React", "JavaScript", "CSS", "NodeMailer"],
       github: "https://github.com/Olakiitan20/CAPSTONE-PROJECT-14",
       liveDemo: "https://capstone-project-14.netlify.app/",
     },
@@ -28,7 +28,7 @@ function Projects() {
       title: "Personal Portfolio",
       type: "FRONTEND DEVELOPMENT",
       description:
-        "A responsive personal portfolio website created to showcase my software development and graphics design work.",
+        "A responsive personal portfolio website created to showcase my full-stack developer and graphics design work.",
       image: "/projects/personal.png",
       technologies: ["React", "Vite", "JavaScript", "CSS"],
       github: "https://github.com/Olakiitan20/agbaje-portfolio",
