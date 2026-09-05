@@ -36,7 +36,7 @@ function Contact() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/contact",
+        "https://agbaje-portfolio-api.onrender.com/api/contact",
         {
           method: "POST",
           headers: {
