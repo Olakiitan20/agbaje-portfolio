@@ -43,8 +43,10 @@
   background: #ffffff;
   border-radius: 8px;
   border: 1px solid #eeeeee;
-
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .design-card:hover {
