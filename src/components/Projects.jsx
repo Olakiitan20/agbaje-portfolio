@@ -20,7 +20,7 @@ function Projects() {
         "A responsive web application that provides information about different planets through a clean and user-friendly interface.",
       image: "/projects/planets.png",
       technologies: ["React", "JavaScript", "CSS", "Responsive Design"],
-      github: "https://github.com/simonigba/CAPSTONE-PROJECT-14",
+      github: "https://github.com/Olakiitan20/CAPSTONE-PROJECT-14",
       liveDemo: "https://capstone-project-14.netlify.app/",
     },
 
