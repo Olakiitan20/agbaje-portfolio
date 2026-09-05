@@ -1,5 +1,6 @@
 .about {
   padding: 100px 0;
+  background: var(--soft-blue-gray);
 }
 
 .about-container {
@@ -23,16 +24,21 @@
 .about-placeholder {
   width: 350px;
   height: 400px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  background: #f1f1f1;
+  background: var(--deep-navy);
+  color: var(--white);
+
+  border: 3px solid var(--electric-blue);
+  border-radius: 12px;
 
   font-size: 1.5rem;
   font-weight: 700;
+
+  box-shadow: 0 15px 40px rgba(11, 18, 32, 0.15);
 }
 
 /* About Content */
@@ -45,6 +51,9 @@
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 15px;
+}
+.about-content .section-label {
+  color: var(--electric-blue);
 }
 
 .about-content h2 {
@@ -71,10 +80,10 @@
   display: inline-block;
   padding: 13px 22px;
 
-  background: #111111;
-  color: #ffffff;
+  background: var(--electric-blue);
+  color: var(--white);
 
-  border: 1px solid #111111;
+  border: 1px solid var(--electric-blue);
   border-radius: 6px;
 
   font-weight: 600;
@@ -89,13 +98,14 @@
 
 /* Download CV Button */
 .cv-button {
-  background: #ffffff;
-  color: #111111;
+  background: var(--white);
+  color: var(--deep-navy);
+  border-color: var(--deep-navy);
 }
 
 .cv-button:hover {
-  background: #111111;
-  color: #ffffff;
+  background: var(--deep-navy);
+  color: var(--white);
   opacity: 1;
 }
 
@@ -123,10 +133,4 @@
   .about-buttons {
     justify-content: center;
   }
-  
-}
-.about-container {
-  grid-template-columns: 1fr;
-  gap: 40px;
-  text-align: center;
 }

@@ -1,6 +1,6 @@
 .footer {
-  background: #0a0a0a;
-  color: #ffffff;
+  background: #060b14;
+  color: var(--white);
   padding: 70px 0 25px;
 }
 
@@ -25,7 +25,6 @@
 .footer-logo {
   display: inline-block;
   margin-bottom: 15px;
-
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -110,11 +109,11 @@ transition:
 
   padding-top: 25px;
 
-  border-top: 1px solid #222222;
+  border-top: 1px solid #333;
 }
 
 .footer-bottom p {
-  color: #777777;
+  color: #1e293b;
   font-size: 0.8rem;
 }
 

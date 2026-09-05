@@ -1,7 +1,11 @@
 .contact {
   padding: 100px 0;
-  background: #111111;
-  color: #ffffff;
+  background: var(--deep-navy);
+  color: var(--white);
+}
+
+.contact .section-label {
+  color: var(--sky-blue);
 }
 
 .contact-container {
@@ -23,6 +27,7 @@
 .contact-heading h2 {
   font-size: clamp(2rem, 4vw, 3.5rem);
   line-height: 1.15;
+  color: var(--white);
   margin-bottom: 25px;
 }
 
@@ -158,11 +163,11 @@
 
   padding: 14px 25px;
 
-  border: none;
+  border: 1px solid var(--electric-blue);
   border-radius: 6px;
 
-  background: #ffffff;
-  color: #111111;
+  background: var(--electric-blue);
+  color: var(--white);
 
   font-size: 0.9rem;
   font-weight: 700;
@@ -176,6 +181,8 @@
 
 .contact-button:hover {
   opacity: 0.85;
+  background: var(--sky-blue);
+  color: var(--deep-navy);
   transform: translateY(-2px);
 }
 
@@ -190,7 +197,43 @@
   margin-top: 5px;
 
   font-size: 0.9rem;
-  color: #cccccc;
+  color: #cbd5e1;
+}
+
+/* Form Notification */
+
+.form-notification {
+  display:flex;
+  align-items: center;
+  gap:10px;
+
+  margin-top: 5px;
+  padding: 12px 15px;
+
+  border-radius: 6px;
+
+  font-size: 0.85rem;
+}
+
+.form-notification p{
+  margin: 0;
+}
+
+.form-notification.success{
+  background: #1a3a2a;
+  color: #9ff0bd;
+  border: 1px solid #285c40;
+}
+
+.form-notification.error{
+  background: #3a1a1a;
+  color: #ff9b9b;
+  border: 1px solid #5c2828;
+}
+
+.form-notification span {
+   font-size: 1rem; 
+   font-weight: 700; 
 }
 
 /* Mobile */

@@ -1,6 +1,10 @@
 .design {
   padding: 100px 0;
-  background: #f8f8f8;
+  background: var(--white);
+}
+
+.design .section-label {
+  color: var(--electric-blue);
 }
 
 .design-container {
@@ -39,19 +43,22 @@
 /* Design Card */
 
 .design-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
   overflow: hidden;
-  background: #ffffff;
-  border-radius: 8px;
-  border: 1px solid #eeeeee;
   cursor: pointer;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .design-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transform: translateY(-6px);
+  border-color: var(--electric-blue);
+  box-shadow: 0 15px 35px rgba(37, 99, 235, 0.12);
+}
+
+.design-card h3 {
+  color: var(--deep-navy);
 }
 
 /* Image */

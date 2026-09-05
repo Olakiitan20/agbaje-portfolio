@@ -29,7 +29,7 @@ function Projects() {
       type: "FRONTEND DEVELOPMENT",
       description:
         "A responsive personal portfolio website created to showcase my software development and graphics design work.",
-      image: "/projects/portfolio.png",
+      image: "/projects/personal.png",
       technologies: ["React", "Vite", "JavaScript", "CSS"],
       github: "https://github.com/Olakiitan20/agbaje-portfolio",
       liveDemo: "#",

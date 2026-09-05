@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+:root {
+  --deep-navy: #0b1220;
+  --electric-blue: #2563eb;
+  --sky-blue: #38bdf8;
+
+  --white: #ffffff;
+  --soft-blue-gray: #f4f7fb;
+
+  --slate: #64748b;
+  --border: #e2e8f0;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
@@ -11,8 +23,8 @@ html {
 
 body {
   font-family: Arial, sans-serif;
-  background: #ffffff;
-  color: #111111;
+  background: var(--white);
+  color: var(--deep-navy);
   min-width: 320px;
 }
 

@@ -1,6 +1,10 @@
 .skills {
   padding: 100px 0;
-  background: #f8f8f8;
+  background: var(--white);
+}
+
+.skills .section-label {
+  color: var(--electric-blue);
 }
 
 .skills-container {
@@ -35,15 +39,24 @@
 }
 
 .skill-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
   padding: 30px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  border-radius: 8px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.skill-card:hover {
+  border-color: var(--electric-blue);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.12);
 }
 
 .skill-card h3 {
   font-size: 1.3rem;
   margin-bottom: 25px;
+  color: var(--deep-navy);
 }
 
 /* Skill List */

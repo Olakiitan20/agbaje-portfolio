@@ -2,6 +2,8 @@
   min-height: calc(100vh - 70px);
   display: flex;
   align-items: center;
+  background: var(--deep-navy);
+  color: var(--white);
 }
 
 .hero-container {
@@ -24,24 +26,29 @@
 .hero-greeting {
   font-size: 1.2rem;
   margin-bottom: 10px;
+  color: var(--sky-blue);
+  font-weight: 600;
 }
 
 .hero-content h1 {
   font-size: clamp(2.5rem, 6vw, 5rem);
   line-height: 1.05;
   margin-bottom: 20px;
+  color: var(--white);
 }
 
 .hero-content h2 {
   font-size: clamp(1.4rem, 3vw, 2.2rem);
   font-weight: 500;
   margin-bottom: 8px;
+  color: var(--sky-blue);
 }
 
 .hero-role {
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 25px;
+  color: var(--white);
 }
 
 .hero-description {
@@ -49,8 +56,8 @@
   font-size: 1.05rem;
   line-height: 1.7;
   margin-bottom: 35px;
+  color: #cbd5e1;
 }
-
 /* Hero Buttons */
 .hero-buttons {
   display: flex;
@@ -67,8 +74,8 @@
 }
 
 .primary-btn {
-  background: #111111;
-  color: #ffffff;
+  background: var(--electric-blue);
+  color: var(--white);
 }
 
 .primary-btn:hover {
@@ -77,12 +84,13 @@
 }
 
 .secondary-btn {
-  border: 1px solid #111111;
+  border: 1px solid var(--sky-blue);
+  color: var(--white);
 }
 
 .secondary-btn:hover {
-  background: #111111;
-  color: #ffffff;
+  background: var(--sky-blue);
+  color: var(--deep-navy);
 }
 
 /* Hero Visual */
@@ -96,17 +104,21 @@
   width: 350px;
   height: 350px;
   border-radius: 50%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  background: #f1f1f1;
+  background: #16233a;
+  border: 3px solid var(--electric-blue);
+
+  color: var(--white);
 
   font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
+
+  box-shadow: 0 0 40px rgba(37, 99, 235, 0.25);
 }
 
 /* Tablet */

@@ -1,6 +1,10 @@
 .services {
   padding: 100px 0;
-  background: #ffffff;
+  background: var(--soft-blue-gray);
+}
+
+.services .section-label {
+  color: var(--electric-blue);
 }
 
 .services-container {
@@ -33,22 +37,28 @@
 }
 
 .service-card {
-  padding: 35px;
-  border: 1px solid #eeeeee;
-  border-radius: 8px;
-  background: #ffffff;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 30px;
+  transition: 0.3s ease;
 }
 
 .service-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transform: translateY(-6px);
+  border-color: var(--electric-blue);
+  box-shadow: 0 15px 35px rgba(37, 99, 235, 0.12);
+}
+
+.service-card h3 {
+  color: var(--deep-navy);
 }
 
 .service-number {
   display: block;
-  margin-bottom: 30px;
-  font-size: 0.8rem;
+  margin-bottom: 20px;
+  color: var(--electric-blue);
+  font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 2px;
 }
