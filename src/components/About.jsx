@@ -52,7 +52,7 @@ function About() {
             </a>
 
             <a
-              href="/cv/Agbaje_Abdulwasiu_CV.pdf"
+              href="/cv/Agbaje_Abdulwasiu_TechCV.pdf"
               className="about-button cv-button"
               download
             >
