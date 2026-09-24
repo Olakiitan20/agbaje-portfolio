@@ -3,12 +3,56 @@ import "./Projects.css";
 function Projects() {
   const projects = [
     {
+      title: "Inventory Manager",
+      type: "FULL-STACK DEVELOPMENT",
+      description:
+        "A full-stack inventory management system designed to help businesses manage products, stock movements, customers, invoices, payments and user access from a centralized dashboard.",
+      image: "/projects/inventory-manager.png",
+      technologies: [
+        "React",
+        "Vite",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "REST API",
+        "JWT",
+      ],
+      github: "https://github.com/Olakiitan20/inventory-manager",
+      liveDemo: "https://inventory-manager-snowy-delta.vercel.app",
+    },
+
+    {
+      title: "Expert Listing Typeahead",
+      type: "FRONTEND DEVELOPMENT",
+      description:
+        "A responsive autocomplete search component built as a frontend screening task. The application searches a public API as the user types and provides interactive results with loading, error and keyboard navigation states.",
+      image: "/projects/typeahead.png",
+      technologies: [
+        "Next.js",
+        "React",
+        "JavaScript",
+        "REST API",
+        "CSS",
+      ],
+      github: "https://github.com/Olakiitan20/expert-listing-typeahead",
+      liveDemo: "https://expert-listing-typeahead-elpar5c3o-olakiitan.vercel.app",
+    },
+
+    {
       title: "Digital Banking System",
       type: "BACKEND DEVELOPMENT",
       description:
-        "A highly secure, production ready fintech engine that automates customer onboarding, enforces strict user authethication and manages core ledger operations. The system throughput REST endpoints to process real time financial transaction, balance updates and account creation with absolute data integrity.",
+        "A backend fintech system that handles customer onboarding, authentication, account management and financial transactions through REST API endpoints, with a focus on data integrity and secure access.",
       image: "/projects/digital-banking.jpeg",
-      technologies: ["Node.js", "Express.js", "MongoDB", "REST API", "JSON Web Tokens (JWT)", "Bcrypt", "Postman"],
+      technologies: [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "REST API",
+        "JWT",
+        "Bcrypt",
+        "Postman",
+      ],
       github: "https://github.com/Olakiitan20/fintechAssignment",
       liveDemo: "#",
     },
@@ -17,9 +61,14 @@ function Projects() {
       title: "Planets Web Application",
       type: "FRONTEND DEVELOPMENT",
       description:
-        "A sleek, responsive web application that delivers detailed insights into our solar system through an intuitive user interface. It translates complex planetary data into highly readable, interactive views with fluid transitions and perfect layouts tailored for any screen size..",
+        "A sleek, responsive web application that provides detailed information about the planets in our solar system through an intuitive interface, interactive views and layouts optimized for different screen sizes.",
       image: "/projects/planets.png",
-      technologies: ["React", "JavaScript", "CSS", "NodeMailer"],
+      technologies: [
+        "React",
+        "JavaScript",
+        "CSS",
+        "NodeMailer",
+      ],
       github: "https://github.com/Olakiitan20/CAPSTONE-PROJECT-14",
       liveDemo: "https://capstone-project-14.netlify.app/",
     },
@@ -28,9 +77,14 @@ function Projects() {
       title: "Personal Portfolio",
       type: "FRONTEND DEVELOPMENT",
       description:
-        "A responsive personal portfolio website created to showcase my full-stack developer and graphics design work.",
+        "A responsive personal portfolio website built to showcase my software development projects, technical skills and graphics design work.",
       image: "/projects/personal.png",
-      technologies: ["React", "Vite", "JavaScript", "CSS"],
+      technologies: [
+        "React",
+        "Vite",
+        "JavaScript",
+        "CSS",
+      ],
       github: "https://github.com/Olakiitan20/agbaje-portfolio",
       liveDemo: "#",
     },
@@ -60,7 +114,10 @@ function Projects() {
         {/* Projects Grid */}
         <div className="projects-grid">
           {projects.map((project) => (
-            <article className="project-card" key={project.title}>
+            <article
+              className="project-card"
+              key={project.title}
+            >
 
               {/* Project Screenshot */}
               <div className="project-image">
